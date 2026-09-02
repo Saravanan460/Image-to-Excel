@@ -1,0 +1,8 @@
+paddlepaddle-gpu
+paddleocr
+pandas
+openpyxl
+pydantic
+Pillow
+tqdm
+requests

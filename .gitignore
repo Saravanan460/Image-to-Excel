@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Temp files
+~$*
+
+# Private Documents
+Index-cards-project-Instructions-LVeronneau.pdf
+*.pdf
+
+# IDEs
+.vscode/
+.idea/

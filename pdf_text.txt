@@ -1,0 +1,830 @@
+1 
+Laurent Veronneau’s Index card’s project 
+ 
+We scanned about 20 000 index cards that refers to diﬀerent ﬁles and documents created by land surveyor Laurent Véronneau: 
+• 
+Plan d’implantaƟon 
+• 
+CerƟﬁcat d’implantaƟon 
+• 
+CerƟﬁcat de localisaƟon 
+• 
+Remplacement cadastral 
+• 
+Plan de loƟssement 
+• 
+Levés alƟmétriques et topographique 
+• 
+Arpentage, etc. 
+Same as Yves Madore’s records, all that informaƟon has to be entered in a data base from a ﬁle that can be an Excel format. 
+Almost all documents have a unique idenƟﬁer: the minute number. 
+There is many informaƟon writen on cards: 
+• 
+Lots’ numbers – ancients; 
+• 
+Documents’ Numbers (minutes); 
+• 
+Files’ Numbers; 
+• 
+Type of job; 
+• 
+Dates of documents; 
+• 
+Clients’ names; 
+• 
+Cadasters; 
+• 
+Addresses of the site where the job took place. 
+However, the informaƟon a placed diﬀerently and not as regularly as Madore’s index cards. But we will use the same Excel ﬁle. 
+No Lot 
+Minute  
+No Dossier No Mandat Type Travail 
+Date Minute Nom client 
+Cadastre #Civique Lot 
+Rue Lot Municipalité Lot 
+Unique entry data Unique 
+Unique 
+Unique 
+Datas may be combined Unique 
+May be combined 
+Unique 
+May be combined Unique 
+Unique 
+ 
+We need records from the beginning (1957) unƟl 1989, inclusively. For 1990 and under, we have all informaƟon on tables. (We will have a further project to transfer and write the content of those PDF lists on an Excel format). 
+We show below how every informaƟon has to be entered in the table. 
+We also share diﬀerent issues that will happen and what to do with it. 
+However, we cannot explain every eventual issue that will occur in reading all cards but we tried to give large principles.  
+For example, you will see that every informaƟon is spread everywhere on cards. So, what really maters for each record are those 3 major things: 
+• 
+Lot’s numbers; 
+• 
+Minute’s number; 
+• 
+File/job’s number. 
+If you have any quesƟons or concerns, feel free to contact us. We will be happy to help you. 
+We will have another project for the Laurent Veronneau’s Index cards further. 
+ 
+Many regards, 
+
+---PAGE---
+2 
+ 
+ 
+No Lot Minute No Dossier No Mandat Type Travail 
+Date Minute Nom client 
+Cadastre 
+#Civique Lot Rue Lot 
+Municipalité Lot 
+255 
+13130 
+13130 
+13130 
+Certificat de localisation 1986-06-18 
+Rodolphe Bouchard 
+Saint-Jean, Ville de 77 à 79 
+Salaberry, de 
+255 
+13130 
+13130 
+13130 
+Certificat de localisation 1986-06-18 
+Rodolphe Bouchard 
+Saint-Jean, Ville de 320 à 322 
+Jacques-Cartier Nord  
+ 
+ 
+ 
+For Veronneau’s records: 
+There is no Mandat’s (job) Numbers on cards 
+File’s Numbers and Minutes’ Numbers are the same unƟl 1989. 
+Lots’ Numbers may be everywhere on cards; we recognize them because 
+the menƟon “lot” before and because they are oŌen underlined or 
+highlighted. 
+
+---PAGE---
+3 
+ 
+No Lot Minute No Dossier No Mandat Type Travail 
+Date Minute Nom client 
+Cadastre 
+#Civique Lot Rue Lot 
+Municipalité Lot 
+255 
+13130 
+13130 
+13130 
+Certificat de localisation 1986-06-18 
+Rodolphe Bouchard 
+Saint-Jean, Ville de 77 à 79 
+Salaberry, de 
+255 
+13130 
+13130 
+13130 
+Certificat de localisation 1986-06-18 
+Rodolphe Bouchard 
+Saint-Jean, Ville de 320 à 322 
+Jacques-Cartier Nord  
+ 
+ 
+ 
+ 
+ 
+Here the 17399 minutes’ date is 1992, so we don’t need this to be entered, skip to 
+the next record. 
+No Mandat and the No Dossier are the same for Laurent Veronneau. 
+For Veronneau’s records, Cadaster’s idenƟﬁcaƟon is here, CircumscripƟons are 
+not writen. 
+Type Travail (Job’s type) may be writen everywhere, usually, followed by 
+the site and the lot’s Number. 
+Here there are two diﬀerent sites, so we will use two lines. 
+Date’s formats may also vary, here the year is 1986, the month 06. 
+Veronneau worked from 1957 To 2001 
+The client’s name here and his address, only write the name. The Job’s address 
+follows the Job’s type. 
+
+---PAGE---
+4 
+ 
+ 
+No Lot 
+Minute No Dossier No Mandat Type Travail 
+Date Minute Nom client 
+Cadastre 
+#Civique Lot Rue Lot 
+Municipalité Lot 
+46-35 
+303 
+303 
+303 
+Subdivision cadastrale 
+1960-05-26 
+Roger Latour 
+Saint-Jean 
+46-36 
+303 
+303 
+303 
+Subdivision cadastrale 
+1960-05-26 
+Roger Latour 
+Saint-Jean 
+ 
+ 
+ 
+46-37 
+303 
+303 
+303 
+Subdivision cadastrale 
+1960-05-26 
+Roger Latour 
+Saint-Jean 
+ 
+ 
+ 
+46-38 
+303 
+303 
+303 
+Subdivision cadastrale 
+1960-05-26 
+Roger Latour 
+Saint-Jean 
+ 
+ 
+ 
+46-39 
+303 
+303 
+303 
+Subdivision cadastrale 
+1960-05-26 
+Roger Latour 
+Saint-Jean 
+ 
+ 
+ 
+46-40 etc. 
+303 
+303 
+303 
+Subdivision cadastrale 
+1960-05-26 
+Roger Latour 
+Saint-Jean 
+ 
+ 
+ 
+46-151 
+303 
+303 
+303 
+Subdivision cadastrale 
+1965-11-04 
+Roger Latour 
+Saint-Jean 
+ 
+ 
+ 
+46-152 
+303 
+303 
+303 
+Subdivision cadastrale 
+1965-11-04 
+Roger Latour 
+Saint-Jean 
+ 
+ 
+ 
+46-153 
+303 
+303 
+303 
+Subdivision cadastrale 
+1965-11-04 
+Roger Latour 
+Saint-Jean 
+ 
+ 
+ 
+46-154 
+303 
+303 
+303 
+Subdivision cadastrale 
+1965-11-04 
+Roger Latour 
+Saint-Jean 
+ 
+ 
+ 
+46-155 
+303 
+303 
+303 
+Subdivision cadastrale 
+1965-11-04 
+Roger Latour 
+Saint-Jean 
+ 
+ 
+ 
+46-156 
+303 
+303 
+303 
+Subdivision cadastrale 
+1965-11-04 
+Roger Latour 
+Saint-Jean 
+ 
+ 
+ 
+46-157 
+303 
+303 
+303 
+Subdivision cadastrale 
+1965-11-04 
+Roger Latour 
+Saint-Jean 
+ 
+ 
+ 
+46-158 etc. 303 
+303 
+303 
+Subdivision cadastrale 
+1965-11-04 
+Roger Latour 
+Saint-Jean 
+ 
+ 
+ 
+46-126 
+7924 
+7924 
+7924 
+Correction cadastrale 
+Unknown 
+Roger Latour 
+Saint-Jean 
+ 
+ 
+ 
+43-193 
+603 
+603 
+603 
+Piquetage 
+1968-04-17 
+Jean-Guy Desmarchais 
+Saint-Jean 
+271 A 
+Jacques-Cartier 
+ 
+ 
+SomeƟmes informaƟon is spread everywhere, we know it may be diﬃcult 
+4 diﬀerent jobs here: 
+1. Subdivision – Lots – Date 
+2. Subdivision – Lots – Date 
+3. CorrecƟon – Lot – Dossier # 7924 same Minute and job number 
+Pour (for) Roger Latour = client Name 
+Site : unknown 
+4. Piquetage – Lots – Date 
+Pour (for) Jean-Guy Desmarchais = client Name 
+Site : 271a, Jacques-CarƟer 
+Lots : 46-35 à 46-149 really mean 46-35, 46-36, 46-37 etc. unƟl 46-149. 
+
+---PAGE---
+5 
+ 
+No Lot 
+Minute No Dossier No Mandat Type Travail 
+Date Minute Nom client 
+Cadastre 
+#Civique Lot Rue Lot 
+Municipalité Lot 
+301 
+6615 
+6615 
+6615 
+Arpentage 
+1975-07-03 
+Hôtel de Ville 
+Saint-Jean, Ville 
+ 
+ 
+No Lot 
+Minute No Dossier No Mandat Type Travail 
+Date Minute Nom client 
+Cadastre 
+#Civique Lot Rue Lot 
+Municipalité Lot 
+301 PTIE 20437 
+13572 
+13572 
+Plan 
+1987-01-30 
+Résidence Funéraire LeSieur et Frère Saint-Jean, Ville 106 à 114 
+Saint-Jacques 
+301 PTIE 20437 
+13572 
+13572 
+Description technique 
+1987-01-30 
+Résidence Funéraire LeSieur et Frère Saint-Jean, Ville 106 à 114 
+Saint-Jacques 
+299 
+20437 
+13572 
+13572 
+Certificat de localisation 
+1987-01-30 
+Résidence Funéraire LeSieur et Frère Saint-Jean, Ville 106 à 114 
+Saint-Jacques  
+300 PTIE 20437 
+13572 
+13572 
+Certificat de localisation 
+1987-01-30 
+Résidence Funéraire LeSieur et Frère Saint-Jean, Ville 106 à 114 
+Saint-Jacques  
+301 PTIE 20437 
+13572 
+13572 
+Certificat de localisation 
+1987-01-30 
+Résidence Funéraire LeSieur et Frère Saint-Jean, Ville 106 à 114 
+Saint-Jacques  
+ 
+ENDROIT (SITE) = Hôtel de Ville but it is not a real address. So in this case, write anywhere 
+it makes sense, we will correct Excel Files aŌerwards.  
+2 Jobs : 
+• 
+Plan et D.T. (DescripƟon technique) – 2 PTIES of lot 301. 
+• 
+CerƟﬁcat de localisaƟon – lots 299, PTIES of 300 and 301 
+Site : 106, 108, 110, 112, 114 (all numbers in a row = 106 to 114), rue Saint-Jacques (Write the 
+long form Saint, not St) 
+
+---PAGE---
+6 
+  
+No Lot 
+Minute No Dossier No Mandat Type Travail 
+Date Minute Nom client 
+Circonscription foncière Cadastre 
+#Civique Lot Rue Lot 
+Municipalité Lot 
+313 
+2197 
+2197 
+2197 
+Recherches 
+Saint-Jean, Ville 
+310 A 
+2197 
+2197 
+2197 
+Recherches 
+ 
+ 
+ 
+Saint-Jean, Ville  
+ 
+ 
+ 
+ 
+SomeƟmes there are no much informaƟon, so leave blank. 
+
+---PAGE---
+7 
+ 
+No Lot 
+Minute No Dossier No Mandat Type Travail 
+Date Minute Nom client 
+Cadastre 
+#Civique Lot Rue Lot 
+Municipalité Lot 
+320 PTIE 10167 
+10167 
+10167 
+Certificat de localisation 1980-11-12 
+Germain Guérard 
+Saint-Jean, Ville 143 à 145 
+Laurier 
+ 
+Month’s translaƟon 
+Janvier 
+Janv. 
+January 
+Février 
+Fév. 
+February 
+Mars 
+ 
+March 
+Avril 
+Av. 
+April 
+Mai 
+ 
+May 
+Juin 
+ 
+June 
+Juillet 
+Juill. 
+July 
+Août 
+ 
+August 
+Septembre 
+Sept. 
+September 
+Octobre 
+Oct. 
+October 
+Novembre 
+Nov. 
+November 
+Décembre 
+Déc. 
+December 
+ 
+ 
+SomeƟmes, there are two diﬀerent dates, here in 1980 and in 1998. It 
+means there are 2 documents and 2 minutes’ (M. = Minute). 
+ 
+1st document  
+• 10167 Minute/10167 No Dossier/10167 No Mandat 
+• First job: CerƟﬁcat de localisaƟon 
+• Lot: 320 PTIE 
+• Date: 1980-11-12 
+2nd document: in 1998, skip to the next record. 
+**ENDROIT (SITE)** = 143 à 145, rue Laurier 
+
+---PAGE---
+8 
+ 
+No Lot 
+Minute No Dossier No Mandat Type Travail 
+Date Minute Nom client 
+Cadastre 
+#Civique Lot Rue Lot 
+Municipalité Lot 
+63-211 
+8557 
+8557 
+8557 
+Piquetage 
+1979-03-12 
+Michel Trahan (Jean-Paul Trahan Inc.) Saint-Jean 491 à 495 
+Séminaire Nord  
+63-211 
+8557 
+8557 
+8557 
+Certificat de localisation 
+1979-03-22 
+Michel Trahan (Jean-Paul Trahan Inc.) Saint-Jean 491 à 495 
+Séminaire Nord  
+63-212 
+8557 
+8557 
+8557 
+Piquetage 
+1979-03-12 
+Michel Trahan (Jean-Paul Trahan Inc.) Saint-Jean 491 à 495 
+Séminaire Nord  
+63-212 
+8557 
+8557 
+8557 
+Certificat de localisation 
+1979-03-22 
+Michel Trahan (Jean-Paul Trahan Inc.) Saint-Jean 491 à 495 
+Séminaire Nord  
+ 
+ 
+No Lot 
+Minute No Dossier No Mandat Type Travail 
+Date Minute Nom client 
+Cadastre 
+#Civique Lot Rue Lot 
+Municipalité Lot 
+63-223 PTIE 
+8912 
+8912 
+8912 
+Subdivision cadastrale 
+1978-12-21 
+Emilien Lehoux 
+Saint-Jean 158 
+Labrèche 
+ 
+63-223-1 PTIE 8912 
+8912 
+8912 
+Subdivision cadastrale 
+1978-12-21 
+Emilien Lehoux 
+Saint-Jean 158 
+Labrèche 
+ 
+63-223-1 
+8912 
+8912 
+8912 
+Certificat de localisation 
+1978-12-21 
+Emilien Lehoux 
+Saint-Jean 158 
+Labrèche 
+ 
+63-224-1 
+8912 
+8912 
+8912 
+Certificat de localisation 
+1978-12-21 
+Emilien Lehoux 
+Saint-Jean 158 
+Labrèche 
+ 
+Some cards are diﬃcult to read 
+M. = Minute 
+1st document  
+• 8557 Minute/8557 No Dossier/18557 No Mandat 
+• Jobs: Piq. Et CerƟﬁcat de localisaƟon  
+• Lots: 63-211, 63-212 
+2nd document  in 1999, M. 22996 :skip to the next records 
+One line for each lot’s number. 
+Paroisse. means : Parish of  
+Site idenƟﬁcaƟon is someƟmes aŌer ** 
+
+---PAGE---
+9 
+ 
+No Lot 
+Minute No Dossier No Mandat Type Travail 
+Date Minute Nom client 
+Cadastre 
+#Civique Lot Rue Lot 
+Municipalité Lot 
+63-408 1067 
+1067 
+1067 
+Piquetage 
+1975-01-01 
+Jacques Robert 
+Saint-Jean 435 à 437 
+Dieppe 
+ 
+ 
+ 
+ 
+No Lot 
+Minute No Dossier No Mandat Type Travail 
+Date Minute Nom client 
+Cadastre 
+#Civique Lot Rue Lot 
+Municipalité Lot 
+46 PTIE 
+1681 
+1681 
+1681 
+Arpentage 
+1964-06-23 
+Roméo Poutré (Taverne Poutré) 
+Saint-Jean  
+ 
+Saint-Jean 
+46 PTIE 
+1681 
+1681 
+1681 
+Subdivision cadastrale 
+1964-06-23 
+Roméo Poutré (Taverne Poutré) 
+Saint-Jean  
+ 
+Saint-Jean 
+46-150 
+1681 
+1681 
+1681 
+Arpentage 
+1964-06-23 
+Roméo Poutré (Taverne Poutré) 
+Saint-Jean  
+ 
+Saint-Jean 
+46-150 
+1681 
+1681 
+1681 
+Subdivision cadastrale 
+1964-06-23 
+Roméo Poutré (Taverne Poutré) 
+Saint-Jean  
+ 
+Saint-Jean 
+ 
+ 
+This is the info for a job in 1975: 
+• Piquetage – Lot – for Jacques Robert 
+Date : 1975  
+UNDEFINED SITE 
+Taverne Poutré = Site idenƟﬁcaƟon without address : Add to client’s 
+Name. 
+Carré means Square (remove like we remove ‘Rue’ (road)) 
+Here, we will skip the 1993 job but there is also another in 
+1975. 
+
+---PAGE---
+10 
+ 
+ 
+No Lot 
+Minute No Dossier No Mandat Type Travail 
+Date Minute Nom client 
+Cadastre 
+#Civique Lot Rue Lot 
+Municipalité Lot 
+47-31 PTIE 4906 
+4906 
+4906 
+Bornage 
+1972-11-01 
+Ville de Saint-Jean 
+Saint-Jean  
+Denis 
+ 
+ 
+ 
+No Lot 
+Minute No Dossier No Mandat Type Travail 
+Date Minute Nom client 
+Circonscription foncière Cadastre 
+#Civique Lot Rue Lot 
+Municipalité Lot 
+47-44 
+7070 
+7070 
+7070 
+Pose de repères 
+1976-03-18 
+Ville de Saint-Jean 
+ 
+Saint-Jean  
+ 
+ 
+ 
+ 
+Type travail (jobs’ names) may vary : 
+Use the Excel Travail_List. 
+
+---PAGE---
+11 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+No Lot 
+Minute No Dossier No Mandat Type Travail 
+Date Minute Nom client 
+Cadastre 
+#Civique Lot Rue Lot 
+Municipalité Lot 
+47-39 
+10882 
+10882 
+10882 
+Piquetage 
+1982-10-06 
+Johanne Lachance 
+Saint-Jean 85 
+Alcide-Côté 
+Saint-Jean-sur-Richelieu 
+47-39 
+10882 
+10882 
+10882 
+Certificat d’implantation 
+1982-10-06 
+Johanne Lachance 
+Saint-Jean 85 
+Alcide-Côté 
+Saint-Jean-sur-Richelieu 
+47-39 
+10882 
+10882 
+10882 
+Certificat de localisation 
+1982-10-06 
+Johanne Lachance 
+Saint-Jean 85 
+Alcide-Côté 
+Saint-Jean-sur-Richelieu 
+47-40 
+10882 
+10882 
+10882 
+Piquetage 
+1982-10-06 
+Johanne Lachance 
+Saint-Jean 85 
+Alcide-Côté 
+Saint-Jean-sur-Richelieu 
+47-40 
+10882 
+10882 
+10882 
+Certificat d’implantation 
+1982-10-06 
+Johanne Lachance 
+Saint-Jean 85 
+Alcide-Côté 
+Saint-Jean-sur-Richelieu 
+47-40 
+10882 
+10882 
+10882 
+Certificat de localisation 
+1982-10-06 
+Johanne Lachance 
+Saint-Jean 85 
+Alcide-Côté 
+Saint-Jean-sur-Richelieu 
+No Lot 
+Minute No Dossier No Mandat Type Travail 
+Date Minute Nom client 
+Cadastre 
+#Civique Lot Rue Lot 
+Municipalité Lot 
+399 PTIE 9884 
+9884 
+9884 
+Arpentage 
+1980-07-01 
+Reine A. Leblanc 
+Saint-Jean 329 
+Laurier 
+ 
+We cannot enter (-1) for minutes’ numbers so we remove (-1).  
+Here again, the second job took place in 1999 (Minute 23198), so only the ﬁrst 
+job in 1980 has to be entered.  
+Most of the Ɵme, the site is the same for every job in the same ﬁle, so we can 
+assume the site correspond to 329, rue Laurier in 1980 too). 
+To easily know which job go with which informaƟon, look at the wriƟng style. 
