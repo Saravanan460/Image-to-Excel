@@ -1,7 +1,7 @@
 import os
 import json
 from tqdm import tqdm
-from config import IMAGE_DIR, EXCEL_OUTPUT, ERROR_LOG, PROGRESS_LOG, SYSTEM_PROMPT_FILE
+from config import IMAGE_DIR, EXCEL_OUTPUT, ERROR_LOG, PROGRESS_LOG, SYSTEM_PROMPT_FILE, OLLAMA_SYSTEM_PROMPT_FILE, ACTIVE_ENGINE
 from extractor import extract_data
 from validator import validate_rows
 from export import export_to_excel
@@ -32,7 +32,9 @@ def log_error(filename, reason):
 def run_pipeline(directory=IMAGE_DIR):
     logger.info("Starting Vision LLM pipeline initialization...")
     
-    with open(SYSTEM_PROMPT_FILE, "r", encoding="utf-8") as f:
+    # We now use the simplified "Ollama" architecture (Python logic) for Gemini too
+    prompt_file = OLLAMA_SYSTEM_PROMPT_FILE
+    with open(prompt_file, "r", encoding="utf-8") as f:
         system_prompt = f.read()
     
     processed_files = load_progress()
@@ -58,7 +60,7 @@ def run_pipeline(directory=IMAGE_DIR):
             continue
             
         # 2. Validation & Business Logic
-        valid_rows, is_valid = validate_rows(raw_json_rows)
+        valid_rows, is_valid = validate_rows(raw_json_rows, engine=ACTIVE_ENGINE)
         if not is_valid or not valid_rows:
             log_error(filename, "Row validation failed or all rows were skipped (e.g. >1989 dates).")
             

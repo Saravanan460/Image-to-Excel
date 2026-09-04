@@ -22,8 +22,13 @@ def test_engines(image_path: str):
     # Test Gemini
     extractor.ACTIVE_ENGINE = "gemini"
     try:
-        gemini_result = extractor.extract_data(image_path, system_prompt)
-        print(json.dumps(gemini_result, indent=2, ensure_ascii=False))
+        with open(SYSTEM_PROMPT_FILE, "r", encoding="utf-8") as f:
+            gemini_prompt = f.read()
+        gemini_raw = extractor.extract_data(image_path, gemini_prompt)
+        from validator import validate_rows
+        gemini_final, _ = validate_rows(gemini_raw, engine="gemini")
+        print("--- FINAL EXCEL ROWS ---")
+        print(json.dumps(gemini_final, indent=2, ensure_ascii=False))
     except Exception as e:
         print(f"Gemini test failed: {e}")
         
@@ -34,8 +39,14 @@ def test_engines(image_path: str):
     # Test Ollama
     extractor.ACTIVE_ENGINE = "ollama"
     try:
-        ollama_result = extractor.extract_data(image_path, system_prompt)
-        print(json.dumps(ollama_result, indent=2, ensure_ascii=False))
+        from config import OLLAMA_SYSTEM_PROMPT_FILE
+        with open(OLLAMA_SYSTEM_PROMPT_FILE, "r", encoding="utf-8") as f:
+            ollama_prompt = f.read()
+        ollama_raw = extractor.extract_data(image_path, ollama_prompt)
+        from validator import validate_rows
+        ollama_final, _ = validate_rows(ollama_raw, engine="ollama")
+        print("--- FINAL EXCEL ROWS ---")
+        print(json.dumps(ollama_final, indent=2, ensure_ascii=False))
     except Exception as e:
         print(f"Ollama test failed: {e}")
 

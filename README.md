@@ -6,10 +6,12 @@ Because different types of documents require different AI approaches, this repos
 
 ---
 
-## 📁 1. V2 (In Development): Multimodal Vision Pipeline
+## 🚀 1. V2 (In Development): Multimodal Vision Pipeline
+* **Located in:** `/v2_vision_llm`
 * **Recommended For:** Highly unstructured, sloppy handwriting and complex visual layouts.
-* **Technology:** Direct Multimodal Vision LLMs (e.g., Gemini 1.5 Flash API or Llama 3.2 Vision).
-* **Why it's better:** It reads the image contextually in a single step, completely bypassing traditional OCR typos. (This pipeline is currently being built in the root directory).
+* **Technology:** Direct Multimodal Vision LLMs (e.g., Gemini 1.5 Flash API or Llama 3.2 Vision via Ollama) + Pydantic Validation + Advanced Python Business Logic.
+* **Key Features:** Includes an evaluation framework for testing different LLM engines, automatic lot range expansion, and specialized address/cadastre formatting rules.
+* **Why it's better:** It reads the image contextually in a single step, completely bypassing traditional OCR typos.
 
 ## 📁 2. V1: PaddleOCR + Local LLM Pipeline
 * **Located in:** `/v1_paddleocr`

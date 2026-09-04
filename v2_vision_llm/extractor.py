@@ -73,8 +73,7 @@ def _extract_with_ollama(image_path: str, system_prompt: str) -> list:
                 "images": [base64_image]
             }
         ],
-        "stream": False,
-        "format": "json"
+        "stream": False
     }
     
     response = requests.post(f"{OLLAMA_HOST}/api/chat", json=payload)
@@ -83,26 +82,26 @@ def _extract_with_ollama(image_path: str, system_prompt: str) -> list:
     result = response.json()
     response_text = result.get("message", {}).get("content", "")
     
-    return _parse_json_response(response_text)
+    return _parse_json_response(response_text), response_text
 
 def _parse_json_response(text: str) -> list:
     """Helper to clean up markdown and parse JSON from LLM response"""
-    text = text.strip()
+    import re
     
-    # Remove markdown code blocks if present
-    if text.startswith("```json"):
-        text = text[7:]
-    elif text.startswith("```"):
-        text = text[3:]
-        
-    if text.endswith("```"):
-        text = text[:-3]
-        
+    # Try to find a JSON array block first
+    match = re.search(r'\[\s*{.*?}\s*\]', text, re.DOTALL)
+    if match:
+        text = match.group(0)
+    else:
+        # Fallback: try to find a single JSON object
+        match = re.search(r'\{.*?\}', text, re.DOTALL)
+        if match:
+            text = match.group(0)
+            
     text = text.strip()
     
     try:
         data = json.loads(text)
-        # Ensure it's a list (since our prompt asks for a JSON array)
         if isinstance(data, dict):
             return [data]
         elif isinstance(data, list):

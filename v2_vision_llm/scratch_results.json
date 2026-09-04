@@ -1,0 +1,367 @@
+{
+  "../images/test_batch\\Screenshot 2026-09-01 183147.png": {
+    "ollama": {
+      "raw": [
+        {
+          "No Lot": "47-39 et 47-40",
+          "Minute": "10882",
+          "No Dossier": "10882",
+          "No Mandat": "10882",
+          "Type Travail": "PIQUETAGE, Implantation et certificat de localisation",
+          "Date Minute": "1982-10-06",
+          "Nom client": "Mme Johanne Lachance",
+          "Cadastre": "",
+          "#Civique Lot": "85",
+          "Rue Lot": "Alcide Côté",
+          "Municipalité Lot": "St-Jean-sur-Richelieu"
+        }
+      ],
+      "validated": [
+        {
+          "No Lot": "47-39",
+          "Minute": "10882",
+          "No Dossier": "10882",
+          "No Mandat": "10882",
+          "Type Travail": "PIQUETAGE, Implantation et certificat de localisation",
+          "Date Minute": "1982-10-06",
+          "Nom client": "Mme Johanne Lachance",
+          "Cadastre": "",
+          "#Civique Lot": "85",
+          "Rue Lot": "Alcide Côté",
+          "Municipalité Lot": "St-Jean-sur-Richelieu"
+        },
+        {
+          "No Lot": "47-40",
+          "Minute": "10882",
+          "No Dossier": "10882",
+          "No Mandat": "10882",
+          "Type Travail": "PIQUETAGE, Implantation et certificat de localisation",
+          "Date Minute": "1982-10-06",
+          "Nom client": "Mme Johanne Lachance",
+          "Cadastre": "",
+          "#Civique Lot": "85",
+          "Rue Lot": "Alcide Côté",
+          "Municipalité Lot": "St-Jean-sur-Richelieu"
+        }
+      ],
+      "llm_text": "```json\n[\n  {\n    \"No Lot\": \"47-39 et 47-40\",\n    \"Minute\": \"10882\",\n    \"No Dossier\": \"10882\",\n    \"No Mandat\": \"10882\",\n    \"Type Travail\": \"PIQUETAGE, Implantation et certificat de localisation\",\n    \"Date Minute\": \"1982-10-06\",\n    \"Nom client\": \"Mme Johanne Lachance\",\n    \"Cadastre\": \"\",\n    \"#Civique Lot\": \"85\",\n    \"Rue Lot\": \"rue Alcide Côté\",\n    \"Municipalité Lot\": \"St-Jean-sur-Richelieu\"\n  }\n]\n```"
+    }
+  },
+  "../images/test_batch\\Screenshot 2026-09-01 183257.png": {
+    "ollama": {
+      "raw": [
+        {
+          "No Lot": "399-3",
+          "Minute": "9884",
+          "No Dossier": "9884",
+          "No Mandat": "9884",
+          "Type Travail": "Pose d'un repère à la ligne Sud",
+          "Date Minute": "1999-12-01",
+          "Nom client": "Mme Reine A. Leblanc",
+          "Cadastre": "",
+          "#Civique Lot": "329",
+          "Rue Lot": "Laurier",
+          "Municipalité Lot": ""
+        }
+      ],
+      "validated": [],
+      "llm_text": "```json\n[\n  {\n    \"No Lot\": \"399-3\",\n    \"Minute\": \"9884\",\n    \"No Dossier\": \"9884\",\n    \"No Mandat\": \"9884\",\n    \"Type Travail\": \"Pose d'un repère à la ligne Sud\",\n    \"Date Minute\": \"1999-12-01\",\n    \"Nom client\": \"Mme Reine A. Leblanc\",\n    \"Cadastre\": \"\",\n    \"#Civique Lot\": \"329\",\n    \"Rue Lot\": \"rue Laurier\",\n    \"Municipalité Lot\": \"\"\n  }\n]\n```"
+    }
+  },
+  "../images/test_batch\\Screenshot 2026-09-01 183325.png": {
+    "ollama": {
+      "raw": [
+        {
+          "No Lot": "63-223 (-1) PTIE",
+          "Minute": "8912",
+          "No Dossier": "8912",
+          "No Mandat": "8912",
+          "Type Travail": "SUBDIVISION",
+          "Date Minute": "1978-12-21",
+          "Nom client": "EMILLEN LEHOUX",
+          "Cadastre": "63-223",
+          "#Civique Lot": "158",
+          "Rue Lot": "Labrèche",
+          "Municipalité Lot": ""
+        },
+        {
+          "No Lot": "63-223-1",
+          "Minute": "8912",
+          "No Dossier": "8912",
+          "No Mandat": "8912",
+          "Type Travail": "Certificat",
+          "Date Minute": "1978-12-21",
+          "Nom client": "EMILLEN LEHOUX",
+          "Cadastre": "63-223",
+          "#Civique Lot": "158",
+          "Rue Lot": "Labrèche",
+          "Municipalité Lot": ""
+        },
+        {
+          "No Lot": "63-224-1",
+          "Minute": "8912",
+          "No Dossier": "8912",
+          "No Mandat": "8912",
+          "Type Travail": "Certificat",
+          "Date Minute": "1978-12-21",
+          "Nom client": "EMILLEN LEHOUX",
+          "Cadastre": "63-224",
+          "#Civique Lot": "158",
+          "Rue Lot": "Labrèche",
+          "Municipalité Lot": ""
+        }
+      ],
+      "validated": [
+        {
+          "No Lot": "63-223  PTIE",
+          "Minute": "8912",
+          "No Dossier": "8912",
+          "No Mandat": "8912",
+          "Type Travail": "SUBDIVISION",
+          "Date Minute": "1978-12-21",
+          "Nom client": "EMILLEN LEHOUX",
+          "Cadastre": "63-223",
+          "#Civique Lot": "158",
+          "Rue Lot": "Labrèche",
+          "Municipalité Lot": ""
+        },
+        {
+          "No Lot": "63-223-1 PTIE",
+          "Minute": "8912",
+          "No Dossier": "8912",
+          "No Mandat": "8912",
+          "Type Travail": "SUBDIVISION",
+          "Date Minute": "1978-12-21",
+          "Nom client": "EMILLEN LEHOUX",
+          "Cadastre": "63-223",
+          "#Civique Lot": "158",
+          "Rue Lot": "Labrèche",
+          "Municipalité Lot": ""
+        },
+        {
+          "No Lot": "63-223-1",
+          "Minute": "8912",
+          "No Dossier": "8912",
+          "No Mandat": "8912",
+          "Type Travail": "Certificat",
+          "Date Minute": "1978-12-21",
+          "Nom client": "EMILLEN LEHOUX",
+          "Cadastre": "63-223",
+          "#Civique Lot": "158",
+          "Rue Lot": "Labrèche",
+          "Municipalité Lot": ""
+        },
+        {
+          "No Lot": "63-224-1",
+          "Minute": "8912",
+          "No Dossier": "8912",
+          "No Mandat": "8912",
+          "Type Travail": "Certificat",
+          "Date Minute": "1978-12-21",
+          "Nom client": "EMILLEN LEHOUX",
+          "Cadastre": "63-224",
+          "#Civique Lot": "158",
+          "Rue Lot": "Labrèche",
+          "Municipalité Lot": ""
+        }
+      ],
+      "llm_text": "```json\n[\n  {\n    \"No Lot\": \"P.63-223 (-1)\",\n    \"Minute\": \"8912\",\n    \"No Dossier\": \"8912\",\n    \"No Mandat\": \"8912\",\n    \"Type Travail\": \"SUBDIVISION\",\n    \"Date Minute\": \"1978-12-21\",\n    \"Nom client\": \"EMILLEN LEHOUX\",\n    \"Cadastre\": \"63-223\",\n    \"#Civique Lot\": \"158\",\n    \"Rue Lot\": \"rue Labrèche\",\n    \"Municipalité Lot\": \"\"\n  },\n  {\n    \"No Lot\": \"63-223-1\",\n    \"Minute\": \"8912\",\n    \"No Dossier\": \"8912\",\n    \"No Mandat\": \"8912\",\n    \"Type Travail\": \"Certificat\",\n    \"Date Minute\": \"1978-12-21\",\n    \"Nom client\": \"EMILLEN LEHOUX\",\n    \"Cadastre\": \"63-223\",\n    \"#Civique Lot\": \"158\",\n    \"Rue Lot\": \"rue Labrèche\",\n    \"Municipalité Lot\": \"\"\n  },\n  {\n    \"No Lot\": \"63-224-1\",\n    \"Minute\": \"8912\",\n    \"No Dossier\": \"8912\",\n    \"No Mandat\": \"8912\",\n    \"Type Travail\": \"Certificat\",\n    \"Date Minute\": \"1978-12-21\",\n    \"Nom client\": \"EMILLEN LEHOUX\",\n    \"Cadastre\": \"63-224\",\n    \"#Civique Lot\": \"158\",\n    \"Rue Lot\": \"rue Labrèche\",\n    \"Municipalité Lot\": \"\"\n  }\n]\n```"
+    }
+  },
+  "../images/test_batch\\Screenshot 2026-09-02 080602.png": {
+    "ollama": {
+      "raw": [
+        {
+          "No Lot": "301",
+          "Minute": "6615",
+          "No Dossier": "6615",
+          "No Mandat": "6615",
+          "Type Travail": "arpentage",
+          "Date Minute": "1975-07-03",
+          "Nom client": "Ville de St-Jean",
+          "Cadastre": "",
+          "#Civique Lot": "",
+          "Rue Lot": "Hôtel de Ville",
+          "Municipalité Lot": ""
+        }
+      ],
+      "validated": [
+        {
+          "No Lot": "301",
+          "Minute": "6615",
+          "No Dossier": "6615",
+          "No Mandat": "6615",
+          "Type Travail": "arpentage",
+          "Date Minute": "1975-07-03",
+          "Nom client": "Ville de St-Jean",
+          "Cadastre": "",
+          "#Civique Lot": "",
+          "Rue Lot": "Hôtel de Ville",
+          "Municipalité Lot": ""
+        }
+      ],
+      "llm_text": "```json\n[\n  {\n    \"No Lot\": \"301\",\n    \"Minute\": \"6615\",\n    \"No Dossier\": \"6615\",\n    \"No Mandat\": \"6615\",\n    \"Type Travail\": \"arpentage\",\n    \"Date Minute\": \"1975-07-03\",\n    \"Nom client\": \"Ville de St-Jean\",\n    \"Cadastre\": \"\",\n    \"#Civique Lot\": \"\",\n    \"Rue Lot\": \"Hôtel de Ville\",\n    \"Municipalité Lot\": \"\"\n  }\n]\n```"
+    }
+  },
+  "../images/test_batch\\Screenshot 2026-09-02 080614.png": {
+    "ollama": {
+      "raw": [
+        {
+          "No Lot": "313",
+          "Minute": "2197",
+          "No Dossier": "2197",
+          "No Mandat": "2197",
+          "Type Travail": "Recherches",
+          "Date Minute": "Unknown",
+          "Nom client": "Unknown",
+          "Cadastre": "Saint-Jean, Ville",
+          "#Civique Lot": "",
+          "Rue Lot": "",
+          "Municipalité Lot": ""
+        },
+        {
+          "No Lot": "310 A",
+          "Minute": "2197",
+          "No Dossier": "2197",
+          "No Mandat": "2197",
+          "Type Travail": "Recherches",
+          "Date Minute": "Unknown",
+          "Nom client": "Unknown",
+          "Cadastre": "Saint-Jean, Ville",
+          "#Civique Lot": "",
+          "Rue Lot": "",
+          "Municipalité Lot": ""
+        }
+      ],
+      "validated": [
+        {
+          "No Lot": "313",
+          "Minute": "2197",
+          "No Dossier": "2197",
+          "No Mandat": "2197",
+          "Type Travail": "Recherches",
+          "Date Minute": "Unknown",
+          "Nom client": "Unknown",
+          "Cadastre": "Saint-Jean, Ville",
+          "#Civique Lot": "",
+          "Rue Lot": "",
+          "Municipalité Lot": ""
+        },
+        {
+          "No Lot": "310 A",
+          "Minute": "2197",
+          "No Dossier": "2197",
+          "No Mandat": "2197",
+          "Type Travail": "Recherches",
+          "Date Minute": "Unknown",
+          "Nom client": "Unknown",
+          "Cadastre": "Saint-Jean, Ville",
+          "#Civique Lot": "",
+          "Rue Lot": "",
+          "Municipalité Lot": ""
+        }
+      ],
+      "llm_text": "```json\n[\n  {\n    \"No Lot\": \"313\",\n    \"Minute\": \"2197\",\n    \"No Dossier\": \"2197\",\n    \"No Mandat\": \"2197\",\n    \"Type Travail\": \"Recherches\",\n    \"Date Minute\": \"Unknown\",\n    \"Nom client\": \"Unknown\",\n    \"Cadastre\": \"Ville de St-Jean\",\n    \"#Civique Lot\": \"\",\n    \"Rue Lot\": \"\",\n    \"Municipalité Lot\": \"\"\n  },\n  {\n    \"No Lot\": \"310 A\",\n    \"Minute\": \"2197\",\n    \"No Dossier\": \"2197\",\n    \"No Mandat\": \"2197\",\n    \"Type Travail\": \"Recherches\",\n    \"Date Minute\": \"Unknown\",\n    \"Nom client\": \"Unknown\",\n    \"Cadastre\": \"Ville de St-Jean\",\n    \"#Civique Lot\": \"\",\n    \"Rue Lot\": \"\",\n    \"Municipalité Lot\": \"\"\n  }\n]\n```"
+    }
+  },
+  "../images/test_batch\\Screenshot 2026-09-02 080723.png": {
+    "ollama": {
+      "raw": [
+        {
+          "No Lot": "63-223 (-1) PTIE",
+          "Minute": "8912",
+          "No Dossier": "8912",
+          "No Mandat": "8912",
+          "Type Travail": "SUBDIVISION",
+          "Date Minute": "1978-12-21",
+          "Nom client": "EMILIEN LEHOUX",
+          "Cadastre": "63-223",
+          "#Civique Lot": "",
+          "Rue Lot": "158, rue Labrèche",
+          "Municipalité Lot": ""
+        },
+        {
+          "No Lot": "63-223-1",
+          "Minute": "8912",
+          "No Dossier": "8912",
+          "No Mandat": "8912",
+          "Type Travail": "Certificat",
+          "Date Minute": "1978-12-21",
+          "Nom client": "EMILIEN LEHOUX",
+          "Cadastre": "63-223",
+          "#Civique Lot": "",
+          "Rue Lot": "158, rue Labrèche",
+          "Municipalité Lot": ""
+        },
+        {
+          "No Lot": "63-224-1",
+          "Minute": "8912",
+          "No Dossier": "8912",
+          "No Mandat": "8912",
+          "Type Travail": "Certificat",
+          "Date Minute": "1978-12-21",
+          "Nom client": "EMILIEN LEHOUX",
+          "Cadastre": "63-224",
+          "#Civique Lot": "",
+          "Rue Lot": "158, rue Labrèche",
+          "Municipalité Lot": ""
+        }
+      ],
+      "validated": [
+        {
+          "No Lot": "63-223  PTIE",
+          "Minute": "8912",
+          "No Dossier": "8912",
+          "No Mandat": "8912",
+          "Type Travail": "SUBDIVISION",
+          "Date Minute": "1978-12-21",
+          "Nom client": "EMILIEN LEHOUX",
+          "Cadastre": "63-223",
+          "#Civique Lot": "",
+          "Rue Lot": "158, rue Labrèche",
+          "Municipalité Lot": ""
+        },
+        {
+          "No Lot": "63-223-1 PTIE",
+          "Minute": "8912",
+          "No Dossier": "8912",
+          "No Mandat": "8912",
+          "Type Travail": "SUBDIVISION",
+          "Date Minute": "1978-12-21",
+          "Nom client": "EMILIEN LEHOUX",
+          "Cadastre": "63-223",
+          "#Civique Lot": "",
+          "Rue Lot": "158, rue Labrèche",
+          "Municipalité Lot": ""
+        },
+        {
+          "No Lot": "63-223-1",
+          "Minute": "8912",
+          "No Dossier": "8912",
+          "No Mandat": "8912",
+          "Type Travail": "Certificat",
+          "Date Minute": "1978-12-21",
+          "Nom client": "EMILIEN LEHOUX",
+          "Cadastre": "63-223",
+          "#Civique Lot": "",
+          "Rue Lot": "158, rue Labrèche",
+          "Municipalité Lot": ""
+        },
+        {
+          "No Lot": "63-224-1",
+          "Minute": "8912",
+          "No Dossier": "8912",
+          "No Mandat": "8912",
+          "Type Travail": "Certificat",
+          "Date Minute": "1978-12-21",
+          "Nom client": "EMILIEN LEHOUX",
+          "Cadastre": "63-224",
+          "#Civique Lot": "",
+          "Rue Lot": "158, rue Labrèche",
+          "Municipalité Lot": ""
+        }
+      ],
+      "llm_text": "```json\n[\n  {\n    \"No Lot\": \"P.63-223 (-1)\",\n    \"Minute\": \"8912\",\n    \"No Dossier\": \"8912\",\n    \"No Mandat\": \"8912\",\n    \"Type Travail\": \"SUBDIVISION\",\n    \"Date Minute\": \"1978-12-21\",\n    \"Nom client\": \"EMILIEN LEHOUX\",\n    \"Cadastre\": \"63-223\",\n    \"#Civique Lot\": \"\",\n    \"Rue Lot\": \"158, rue Labrèche\",\n    \"Municipalité Lot\": \"\"\n  },\n  {\n    \"No Lot\": \"63-223-1\",\n    \"Minute\": \"8912\",\n    \"No Dossier\": \"8912\",\n    \"No Mandat\": \"8912\",\n    \"Type Travail\": \"Certificat\",\n    \"Date Minute\": \"1978-12-21\",\n    \"Nom client\": \"EMILIEN LEHOUX\",\n    \"Cadastre\": \"63-223\",\n    \"#Civique Lot\": \"\",\n    \"Rue Lot\": \"158, rue Labrèche\",\n    \"Municipalité Lot\": \"\"\n  },\n  {\n    \"No Lot\": \"63-224-1\",\n    \"Minute\": \"8912\",\n    \"No Dossier\": \"8912\",\n    \"No Mandat\": \"8912\",\n    \"Type Travail\": \"Certificat\",\n    \"Date Minute\": \"1978-12-21\",\n    \"Nom client\": \"EMILIEN LEHOUX\",\n    \"Cadastre\": \"63-224\",\n    \"#Civique Lot\": \"\",\n    \"Rue Lot\": \"158, rue Labrèche\",\n    \"Municipalité Lot\": \"\"\n  }\n]\n```"
+    }
+  }
+}

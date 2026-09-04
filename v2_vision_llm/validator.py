@@ -62,6 +62,17 @@ class CardRow(BaseModel):
 def expand_lot_ranges(row: dict) -> List[dict]:
     lot = str(row.get("No Lot", "")).strip()
     
+    # Split by "et", "&", or "," first
+    parts = [p.strip() for p in re.split(r'\b(?:et|&)\b|,', lot, flags=re.IGNORECASE) if p.strip()]
+    if len(parts) > 1:
+        expanded_all = []
+        for part in parts:
+            new_row = row.copy()
+            new_row["No Lot"] = part
+            expanded_all.extend(expand_lot_ranges(new_row))
+        return expanded_all
+
+    
     # Pattern 1: Prefix-Start to Prefix-End (e.g. 46-35 à 46-149)
     match1 = re.search(r'^(.*?)-(\d+)\s+(?:à|a|to)\s+(.*?)-(\d+)$', lot, re.IGNORECASE)
     if match1:
@@ -90,13 +101,69 @@ def expand_lot_ranges(row: dict) -> List[dict]:
 
     return [row]
 
-def validate_rows(json_rows: List[dict]) -> tuple[List[dict], bool]:
+def apply_ollama_business_logic(row: dict) -> List[dict]:
+    new_rows = []
+    
+    # Rule 7: Cadastre formatting
+    cadastre = str(row.get("Cadastre", ""))
+    if re.search(r'Paroisse de St-Jean', cadastre, re.IGNORECASE):
+        row["Cadastre"] = "Saint-Jean"
+    elif re.search(r'Ville de St-Jean', cadastre, re.IGNORECASE):
+        row["Cadastre"] = "Saint-Jean, Ville"
+        
+    # Rule 9: Civic Number & Street
+    civic = str(row.get("#Civique Lot", ""))
+    civic = re.sub(r'\b(et|&)\b', 'à', civic, flags=re.IGNORECASE)
+    civic = re.sub(r'(\d+)\s*,\s*(\d+)', r'\1 à \2', civic)
+    row["#Civique Lot"] = civic.strip()
+    
+    rue = str(row.get("Rue Lot", ""))
+    rue = rue.replace("**", "")
+    rue = re.sub(r'^(rue|carré|boul\. du)\s+', '', rue, flags=re.IGNORECASE)
+    if rue.lower().startswith("de "):
+        rue = rue[3:] + ", de"
+    row["Rue Lot"] = rue.strip()
+    
+    # Rule 5: PTIE Rule
+    lot = str(row.get("No Lot", ""))
+    if re.search(r'\b(P\.|parties?\s+du\s+lot|pties?\s+du\s+lot|parties?|pties?)\b', lot, re.IGNORECASE):
+        # Remove complex prefixes like "2 parties du lot "
+        lot = re.sub(r'\b\d*\s*(parties?\s+du\s+lot|pties?\s+du\s+lot)\s*', '', lot, flags=re.IGNORECASE)
+        # Remove simple prefixes like "P." or "partie"
+        lot = re.sub(r'\b(P\.|parties?|pties?)\b', '', lot, flags=re.IGNORECASE).strip()
+        # Clean up any leftover "du lot" just in case
+        lot = re.sub(r'^du\s+lot\s+', '', lot, flags=re.IGNORECASE).strip()
+        
+        if not lot.upper().endswith("PTIE"):
+            lot += " PTIE"
+        row["No Lot"] = lot
+
+    # Rule 4: Special Lot Expansion (-1)
+    if "(-1)" in lot:
+        lot_base = lot.replace("(-1)", "").strip()
+        base_num = lot_base.replace(" PTIE", "").strip()
+        row1 = row.copy()
+        row2 = row.copy()
+        row1["No Lot"] = lot_base
+        row2["No Lot"] = f"{base_num}-1"
+        if " PTIE" in lot_base:
+            row2["No Lot"] += " PTIE"
+        new_rows.extend([row1, row2])
+    else:
+        new_rows.append(row)
+        
+    return new_rows
+
+def validate_rows(json_rows: List[dict], engine: str = "gemini") -> tuple[List[dict], bool]:
     valid_rows = []
     is_valid = True
     
     expanded_json_rows = []
     for row in json_rows:
-        expanded_json_rows.extend(expand_lot_ranges(row))
+        # We now apply the Python logic for both Gemini and Ollama
+        processed_rows = apply_ollama_business_logic(row)
+        for prow in processed_rows:
+            expanded_json_rows.extend(expand_lot_ranges(prow))
         
     for row_dict in expanded_json_rows:
         try:
